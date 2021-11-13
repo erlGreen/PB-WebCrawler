@@ -114,10 +114,10 @@ if __name__ == '__main__':
 
     crawler.run()
 
-    # fig, ax = plt.subplots()
+    # matplotlib - można sobie ruszać wykres
+    fig, ax = plt.subplots()
+    plot(graph, target=ax)
+    plt.show()
 
-    # plot(graph, target=ax)
-
-    # plt.show()
-
-    plot(graph)
+    # funkcja z igraph - statyczne zdjęcie
+    #plot(graph)
